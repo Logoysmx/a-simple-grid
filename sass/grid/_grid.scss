@@ -1,0 +1,36 @@
+@import 'helpers';
+@import 'settings';
+@import 'placeholders';
+
+&.#{$slug-row-grid}{
+	max-width: pxToRem($max-row, $base);
+	margin-left: auto;
+	margin-right: auto;
+	&::before, &::after{
+		content: ' ';
+		display: table;
+	}  
+	&::after{
+		clear: both;
+	}
+	&.full{
+		max-width: 100%!important;
+	}  	
+}
+
+@for $i from 1 through $total_columns{
+	$percent-col : $i * 100% / $total_columns;
+	.#{$slug-col-grid}-#{$i}{
+		width: $percent-col;
+		&.#{$slug-in-cols}{
+			@extend %in-cols;
+			padding: 0 pxToRem(($gutters / 2), $base);
+			&.#{$slug-no-gutters}{
+				padding: 0 !important;
+			}
+		}
+		&.#{$slug-centered}{
+			margin: 0 auto;
+		}		
+	}
+}

@@ -1,0 +1,4 @@
+@function pxToRem($px, $base){
+	$inRem: $px / $base;
+	@return #{$inRem}rem;
+}

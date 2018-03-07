@@ -1,0 +1,29 @@
+{
+  "name": "simple_grid",
+  "version": "1.0.0",
+  "description": "A simple grid",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Logoysmx/simple-grid.git"
+  },
+  "keywords": [
+    "Grid",
+    "system"
+  ],
+  "author": "Isaac Fraire Heredia",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.5.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Logoysmx/simple-grid/issues"
+  },
+  "homepage": "https://github.com/Logoysmx/simple-grid#readme"
+}

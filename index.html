@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./dist/css/app.css">
+	<link rel="stylesheet" href="./dist/css/general.css">
+	<title>Simple grid</title>
+</head>
+<body>
+	<div class="row main">
+		<div class="col-12 in-cols">
+			<div class="row">
+				<div class="cols-12 in-cols">
+					<h1>Simple Grid</h1>
+					<h2>Description</h2>
+					<p>It's a simple grid based in bootstrap and zurb foundation (this guide are using it).</p>
+					<h2>Download</h2>
+					<a href="https://github.com/Logoysmx/simple-grid" target="_blank">Download from github</a>
+					<h2>Features</h2>
+					<ul>
+						<li>Use only a row container (width configurable, 1200 px by default)</li>
+						<li>Works with columns (by default are 12)</li>
+						<li>Custom prefix classes</li>
+						<li>If you need, can use more than 12 columns</li>
+						<li>Custom gutters (30px by default)</li>
+						<li>Without JavaScript</li>
+						<li><strong>All browsers compatible</strong></li>
+					</ul>
+					<div class="note">
+						<h2>How to use</h2>
+						<code>&#60;div class="row"&#62;<br>
+							&#60;div class="col-6 in-cols"&#62;Content...&#60;/div&#62;<br>
+							&#60;div class="col-6 in-cols"&#62;Content...&#60;/div&#62;<br>
+						&#60;/div &#62;</code>
+						<p>It`s important use the class <code>.in-cols</code> when you need to use columns.</p>
+						<p>or...</p>
+						<code>&#60;div class="row"&#62;<br>
+							&#60;div class="col-8 centered"&#62;Content...&#60;/div&#62;<br>
+						&#60;/div &#62;</code>
+					</div>
+				</div>
+				<div>
+					<h2>Twelve columns example</h2>
+					<div class="row">
+						<div class="col-1 in-cols">1</div>
+						<div class="col-1 in-cols">2</div>
+						<div class="col-1 in-cols">3</div>
+						<div class="col-1 in-cols">4</div>
+						<div class="col-1 in-cols">5</div>
+						<div class="col-1 in-cols">6</div>
+						<div class="col-1 in-cols">7</div>
+						<div class="col-1 in-cols">8</div>
+						<div class="col-1 in-cols">9</div>
+						<div class="col-1 in-cols">10</div>
+						<div class="col-1 in-cols">11</div>
+						<div class="col-1 in-cols">12</div>
+					</div>
+					<h2>Examples</h2>		
+					<h3>Two columns</h3>
+					<div class="row">
+						<div class="col-6 bg-silver-light in-cols">First column</div>
+						<div class="col-6 bg-silver in-cols">Second column</div>
+					</div>
+					<h3>Two columns (without glutters)</h3>
+					<div class="row">
+						<div class="col-6 in-cols bg-silver no-gutters">First column</div>
+						<div class="col-6 in-cols bg-silver-light no-gutters">Second column</div>
+					</div>	
+					<h3>Column centered</h3>
+					<div class="note">Using class: <code>.row</code> for columns use <code>col-n</code> (when n is a column's number) and <code>centered</code> class for centered a column.</div>
+					<div class="row bg-silver-light">
+						<div class="col-1 centered bg-silver center">col-1</div>
+					</div>
+					<div class="row bg-silver-light">
+						<div class="col-2 centered bg-silver center">col-2</div>
+					</div>	
+					<div class="row bg-silver-light">
+						<div class="col-3 centered bg-silver center">col-3</div>
+					</div>
+					<div class="row bg-silver-light">
+						<div class="col-4 centered bg-silver center">col-4</div>
+					</div>
+					<div class="row bg-silver-light">
+						<div class="col-5 centered bg-silver center">col-5</div>
+					</div>	
+					<div class="row bg-silver-light">
+						<div class="col-6 centered bg-silver center">col-6</div>
+					</div>	
+					<div class="row bg-silver-light">
+						<div class="col-7 centered bg-silver center">col-7</div>
+					</div>
+					<div class="row bg-silver-light">
+						<div class="col-8 centered bg-silver center">col-8</div>
+					</div>	
+					<div class="row bg-silver-light">
+						<div class="col-9 centered bg-silver center">col-9</div>
+					</div>	
+					<div class="row bg-silver-light">
+						<div class="col-10 centered bg-silver center">col-10</div>
+					</div>
+					<div class="row bg-silver-light">
+						<div class="col-11 centered bg-silver center">col-11</div>
+					</div>	
+					<div class="row bg-silver-light">
+						<div class="col-12 centered bg-silver center">col-12</div>
+					</div>																					
+				</div>
+			</div>
+		</div>
+	</div>
+			<footer>A simple grid | Isaac Fraire Heredia</footer>
+		</body>
+		</html>
